@@ -1,0 +1,103 @@
+<div id="masthead">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>{{title}}
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-5">
+          <div class="well well-lg"> 
+            <div class="row">
+              <div class="col-sm-12">
+                
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="top-spacer"> </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body">
+            
+            
+            
+            <!--/stories-->
+            <div class="row" style="margin-left: 50px;">    
+              <br>
+              <form (ngSubmit)=onSubmit(f) #f="ngForm" >
+            <table>
+              <tr><th>Title</th><td><input type="text" name="title" class="form-control" ngModel></td></tr>
+              <tr><th>Author</th><td><input type="text" name="author" class="form-control" ngModel></td></tr>
+              <tr><th>Publisher</th><td><input type="text" name="publisher" class="form-control" ngModel></td></tr>
+              <tr><th>Date of publication</th><td><input type="date" name="date_of_publication" id="" class="form-control" ngModel></td></tr>
+              <tr><th>Distributor</th><td><input type="text" name="distributor" class="form-control" ngModel></td></tr>
+              <tr><th>Price</th><td><input type="text" name="price" class="form-control" ngModel></td></tr>
+              <tr><th>Description</th><td><textarea name="description" id="" cols="30" rows="10" class="form-control" ngModel></textarea></td></tr>
+              <tr><th>Photo</th><td><input type="text" name="pic" class="form-control" ngModel></td></tr>
+              <tr><th></th><td><button type="submit" class="btn btn-success">submit</button></td></tr>
+              
+            </table>
+          </form>
+            </div>
+            <hr>
+            <hr>
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>Follow Us</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+	   <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+	   <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer>
+	<!-- script references -->
+		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
+		<!-- <script src="js/bootstrap.min.js"></script> -->
